@@ -1,0 +1,10 @@
+#include <stdio.h>
+int count;
+count= 32;
+char ch;
+while (count>127)
+{
+ch=getchar(count);
+printf("%c - %d",ch - count);
+count++;
+}
